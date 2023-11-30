@@ -3,8 +3,8 @@ CFLAGS = -Wall -Wextra -g
 
 all: hello
 
-hello: hello.c
-	$(CC) $(CFLAGS) -o hello hello.c
+hello: fibonacci.c
+	$(CC) $(CFLAGS) -o hello fibonacci.c
 
 .PHONY: clean
 
